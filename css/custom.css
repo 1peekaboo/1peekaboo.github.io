@@ -36,3 +36,21 @@ article .post-card:hover,
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(73, 177, 245, .15);
 }
+
+/* ===== 移动端优化:关闭固定全屏背景,消除滚动卡顿 =====
+   #web_bg 默认是 position:fixed + cover 整屏大图,
+   移动端每滚动一帧都要重新合成,导致严重卡顿。
+   这里在窄屏隐藏固定层,改为 body 上的 scroll 背景(便宜、不掉帧)。 */
+@media (max-width: 768px) {
+  #web_bg {
+    display: none !important;
+  }
+  body {
+    background-color: #eef3f0;
+    background-image: url(/img/background.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+  }
+}
