@@ -1,0 +1,38 @@
+/* ===== 文章目录(TOC)悬停特效 ===== */
+html {
+  scroll-behavior: smooth; /* 点击目录平滑滚动 */
+}
+
+#card-toc .toc-content a {
+  transition: all .3s ease;
+  border-left: 3px solid transparent;
+  padding-left: 10px;
+}
+
+#card-toc .toc-content a:hover {
+  color: #49B1F5 !important;
+  border-left-color: #49B1F5;
+  background: rgba(73, 177, 245, .08);
+  padding-left: 14px;
+}
+
+/* 当前阅读位置高亮 */
+#card-toc .toc-content a.active,
+#card-toc .toc-content a.current {
+  color: #49B1F5 !important;
+  border-left-color: #49B1F5;
+  background: rgba(73, 177, 245, .12);
+  font-weight: 600;
+}
+
+/* 文章卡片悬停轻微上浮,增加层次感 */
+article .post-card,
+#recent-posts .recent-post-item {
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+article .post-card:hover,
+#recent-posts .recent-post-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(73, 177, 245, .15);
+}
