@@ -10,18 +10,18 @@ html {
 }
 
 #card-toc .toc-content a:hover {
-  color: #49B1F5 !important;
-  border-left-color: #49B1F5;
-  background: rgba(73, 177, 245, .08);
+  color: #7cb342 !important;
+  border-left-color: #7cb342;
+  background: rgba(124, 179, 66, .08);
   padding-left: 14px;
 }
 
 /* 当前阅读位置高亮 */
 #card-toc .toc-content a.active,
 #card-toc .toc-content a.current {
-  color: #49B1F5 !important;
-  border-left-color: #49B1F5;
-  background: rgba(73, 177, 245, .12);
+  color: #7cb342 !important;
+  border-left-color: #7cb342;
+  background: rgba(124, 179, 66, .12);
   font-weight: 600;
 }
 
@@ -34,7 +34,7 @@ article .post-card,
 article .post-card:hover,
 #recent-posts .recent-post-item:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(73, 177, 245, .15);
+  box-shadow: 0 8px 24px rgba(124, 179, 66, .15);
 }
 
 /* ===== 移动端优化:关闭固定全屏背景,消除滚动卡顿 =====
@@ -47,10 +47,27 @@ article .post-card:hover,
   }
   body {
     background-color: #eef3f0;
-    background-image: url(/img/background.jpg);
+    background-image: url(/img/background_hd.jpg);
     background-position: center top;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
   }
 }
+
+/* ===== 草绿主题色（覆盖 Butterfly 默认天蓝） ===== */
+:root {
+  --theme-color: #7cb342;
+  --theme-color-light: #8bc34a;
+  --btn-bg: #7cb342;
+  --btn-hover-color: #6aa23a;
+}
+a:hover,
+#nav .menus_items .menus_item:hover > a,
+.aside-list-item:hover .aside-list-item-info,
+.card-archive-article-title:hover,
+.flinks-item:hover,
+#pagination .page-number.current,
+#pagination .page-number:hover,
+#aside-content .card-archives ul.card-archive-list > li:hover a,
+#aside-content .card-categories ul.card-category-list > li:hover a { color: #7cb342 !important; }
