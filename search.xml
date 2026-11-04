@@ -51,16 +51,6 @@
     <title>Python 课内实验2：流程控制语句实验</title>
     <url>/2026/10/26/python-lab2/</url>
     <content><![CDATA[<blockquote>
-<p><strong>课程作业信息</strong></p>
-<ul>
-<li>学院：广西工业学院</li>
-<li>专业：数字媒体技术</li>
-<li>姓名：刘佳琪</li>
-<li>学号：26103030116</li>
-<li>提交日期：2026年10月26日</li>
-</ul>
-</blockquote>
-<blockquote>
 <p>以下代码与运行结果均以截图形式呈现，原版 Word 报告可在文末下载。</p>
 </blockquote>
 <h2 id="实验二：流程控制语句实验"><a href="#实验二：流程控制语句实验" class="headerlink" title="实验二：流程控制语句实验"></a>实验二：流程控制语句实验</h2><h2 id="第3章-基础实验1-if条件语句"><a href="#第3章-基础实验1-if条件语句" class="headerlink" title="第3章 基础实验1  if条件语句"></a>第3章 基础实验1  if条件语句</h2><h3 id="1、实验目标"><a href="#1、实验目标" class="headerlink" title="1、实验目标"></a>1、实验目标</h3><p>通过完成本实例，读者应掌握以下知识或技能：熟练使用if-elif语句；掌握if嵌套。</p>
@@ -129,16 +119,6 @@
     <title>Python 课内实验3：字符串操作实验</title>
     <url>/2026/11/02/python-lab3/</url>
     <content><![CDATA[<blockquote>
-<p><strong>课程作业信息</strong></p>
-<ul>
-<li>学院：广西工业学院</li>
-<li>专业：数字媒体技术</li>
-<li>姓名：刘佳琪</li>
-<li>学号：26103030116</li>
-<li>提交日期：2026年11月02日</li>
-</ul>
-</blockquote>
-<blockquote>
 <p>以下代码与运行结果均以截图形式呈现，原版 Word 报告可在文末下载。</p>
 </blockquote>
 <h2 id="实验三：字符串操作实验"><a href="#实验三：字符串操作实验" class="headerlink" title="实验三：字符串操作实验"></a>实验三：字符串操作实验</h2><h2 id="第4章-基础实验1-字符串格式化-方法"><a href="#第4章-基础实验1-字符串格式化-方法" class="headerlink" title="第4章 基础实验1  字符串格式化%方法"></a>第4章 基础实验1  字符串格式化%方法</h2><h3 id="1、实验目标"><a href="#1、实验目标" class="headerlink" title="1、实验目标"></a>1、实验目标</h3><p>通过完成本实例，读者应掌握以下知识或技能：</p>
