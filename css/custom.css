@@ -128,3 +128,48 @@ a:hover,
     transform: translateY(0);
   }
 }
+
+/* ===== 课程实验报告专栏卡片 ===== */
+.lab-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+  margin: 32px 0;
+}
+.lab-card {
+  flex: 1 1 280px;
+  min-width: 260px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #fff;
+  text-decoration: none !important;
+  color: #2f3a2f;
+  box-shadow: 0 8px 28px rgba(60, 90, 60, .12);
+  transition: transform .35s ease, box-shadow .35s ease;
+}
+.lab-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(124, 179, 66, .35);
+}
+.lab-card-img {
+  height: 160px;
+  background-size: cover;
+  background-position: center;
+}
+.lab-card-body {
+  padding: 18px 20px 22px;
+}
+.lab-card-body h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #2f3a2f;
+}
+.lab-card-tag {
+  display: inline-block;
+  color: #7cb342;
+  font-size: 13px;
+  font-weight: 600;
+}
+@media (max-width: 768px) {
+  .lab-card-img { height: 130px; }
+}
