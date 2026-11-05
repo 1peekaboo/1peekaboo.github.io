@@ -173,3 +173,94 @@ a:hover,
 @media (max-width: 768px) {
   .lab-card-img { height: 130px; }
 }
+
+/* ===== 首页「Python课后实验报告」专栏入口板块 ===== */
+.home-lab-block {
+  margin: 1.4rem auto 0;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+.home-lab-inner {
+  background: #fff;
+  border-radius: 14px;
+  padding: 26px 28px 30px;
+  box-shadow: 0 8px 24px rgba(60, 80, 40, .08);
+  border: 1px solid rgba(124, 179, 66, .20);
+}
+.home-lab-head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+.home-lab-title {
+  margin: 0;
+  font-size: 22px;
+  color: #2f3a2f;
+}
+.home-lab-badge {
+  background: #7cb342;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.home-lab-desc {
+  margin: 0 0 18px;
+  color: #5b6b5b;
+  font-size: 14px;
+  line-height: 1.7;
+}
+.home-lab-cards {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+.home-lab-card {
+  flex: 1 1 260px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fafdf6;
+  border: 1px solid rgba(124, 179, 66, .22);
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.home-lab-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 26px rgba(124, 179, 66, .22);
+}
+.home-lab-card-img {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+  background-color: #eef5e6;
+}
+.home-lab-card-body {
+  padding: 14px 16px 18px;
+}
+.home-lab-card-title {
+  font-size: 16px;
+  color: #2f3a2f;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.home-lab-card-tags span {
+  display: inline-block;
+  color: #7cb342;
+  font-size: 12px;
+  margin-right: 8px;
+}
+.home-lab-more {
+  margin-top: 18px;
+  text-align: right;
+}
+.home-lab-more a {
+  color: #7cb342;
+  font-weight: 600;
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .home-lab-card-img { height: 130px; }
+  .home-lab-inner { padding: 20px 18px 24px; }
+  .home-lab-title { font-size: 20px; }
+}
